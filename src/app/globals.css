@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply m-0 min-w-[320px] min-h-screen;
+  }
+
+}
+
+/* 移除图表点击时的黑色聚焦框 */
+.recharts-wrapper *:focus,
+.recharts-wrapper *:focus-visible,
+.recharts-surface:focus,
+.recharts-surface:focus-visible,
+svg:focus,
+svg:focus-visible,
+path:focus,
+path:focus-visible,
+rect:focus,
+rect:focus-visible,
+circle:focus,
+circle:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* 移除所有可点击元素的聚焦框 */
+*:focus:not(:focus-visible) {
+  outline: none !important;
+}

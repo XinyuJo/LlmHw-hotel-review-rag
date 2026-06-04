@@ -1,0 +1,156 @@
+# 数据接口规范: 花园酒店评论分析系统
+# 说明: 本项目不使用独立的 API Routes，而是通过 lib/api.ts 直接调用 Insforge SDK
+# 本文件描述 lib/api.ts 提供的函数接口规范
+
+info:
+  title: 数据接口规范
+  description: lib/api.ts 和 lib/qa.ts 提供的函数接口
+  version: 1.0.0
+
+# 评论相关接口
+
+## getComments(filters, page, pageSize)
+# 获取评论列表（支持筛选和分页）
+# 参数:
+#   - filters: CommentFilters 对象
+#     - dateRange?: { start: string, end: string }  # YYYY-MM-DD 格式
+#     - scores?: number[]  # 星级筛选（1-5）
+#     - roomTypes?: string[]  # fuzzy_room_type 筛选
+#     - travelTypes?: string[]  # travel_type 筛选
+#     - categories?: StandardCategory[]  # 类别筛选
+#     - qualityScoreMin?: number  # 最低质量分
+#     - keyword?: string  # 关键词搜索
+#     - sortBy?: string  # 排序字段
+#     - sortOrder?: 'asc' | 'desc'  # 排序方向
+#   - page: number (default: 1)
+#   - pageSize: number (default: 20, max: 100)
+# 返回: PaginatedResponse<Comment>
+#   - data: Comment[]
+#   - total: number
+#   - page: number
+#   - pageSize: number
+#   - totalPages: number
+
+## getCommentById(id)
+# 获取单条评论
+# 参数:
+#   - id: string
+# 返回: Comment | null
+
+## getHighQualityComments(categories, limit)
+# 获取高质量评论（用于 AI 问答）
+# 参数:
+#   - categories: string[] (可选)
+#   - limit: number (default: 5)
+# 返回: Comment[]
+
+## getStats()
+# 获取统计数据
+# 参数: 无
+# 返回: DashboardStats
+#   - total: number
+#   - avgScore: number
+#   - highQualityCount: number
+#   - scoreDistribution: { score: number, count: number }[]
+#   - monthlyTrend: { month: string, count: number, avgScore: number }[]
+#   - categoryDistribution: { category: string, count: number }[]
+#   - roomTypeDistribution: { roomType: string, count: number }[]
+#   - travelTypeDistribution: { travelType: string, count: number }[]
+
+# 问答相关接口
+
+## askQuestionStream(question, references, signal)
+# 流式问答服务
+# 参数:
+#   - question: string
+#   - references: Comment[]
+#   - signal?: AbortSignal
+# 返回: AsyncGenerator<string, void, unknown>
+
+## getReferencesForQuestion(question)
+# 获取相关评论（供外部调用）
+# 参数:
+#   - question: string
+# 返回: Promise<Comment[]>
+
+## askQuestion(question)
+# 非流式问答（保留兼容）
+# 参数:
+#   - question: string
+# 返回: Promise<QAResponse>
+#   - answer: string
+#   - references: Comment[]
+
+# 后台问答服务接口 (lib/qa-background.ts)
+
+## startBackgroundStream(question, existingMessages, onUpdate)
+# 启动后台流式问答
+# 参数:
+#   - question: string
+#   - existingMessages: Message[]
+#   - onUpdate?: (messages: Message[], isComplete: boolean) => void
+# 返回: { userMessageId: string, assistantMessageId: string }
+
+## loadMessages()
+# 读取消息
+# 返回: Message[]
+
+## loadActiveStream()
+# 读取活动流状态
+# 返回: ActiveStream | null
+
+## hasActiveStream()
+# 检查是否有活动的流式请求
+# 返回: boolean
+
+## abortCurrentStream()
+# 终止当前流式请求
+# 返回: { content: string, hadContent: boolean }
+
+## syncActiveStreamToMessages()
+# 同步活动流状态到消息列表（页面恢复时调用）
+# 返回: Message[]
+
+## clearAllData()
+# 清除所有数据
+# 返回: void
+
+# 数据类型定义
+
+## Comment
+# _id: string
+# comment: string
+# images: string[]
+# score: number  # 0.5-5.0 浮点数
+# star: number  # 1-5 整数星级
+# useful_count: number
+# publish_date: string  # ISO date string
+# room_type: string
+# travel_type: string
+# review_count: number
+# fuzzy_room_type: string  # 注意字段名
+# quality_score: number  # 0-10
+# category1: StandardCategory | null
+# category2: StandardCategory | null
+# category3: StandardCategory | null
+# categories: StandardCategory[]  # 从 category1/2/3 派生
+# comment_len?: number
+# log_comment_len?: number
+# log_useful_count?: number
+# log_review_count?: number
+
+## StandardCategory
+# 14个标准小类之一:
+# '房间设施' | '公共设施' | '餐饮设施' |
+# '前台服务' | '客房服务' | '退房/入住效率' |
+# '交通便利性' | '周边配套' | '景观/朝向' |
+# '性价比' | '价格合理性' |
+# '整体满意度' | '安静程度' | '卫生状况'
+
+## Message (QA)
+# id: string
+# role: 'user' | 'assistant'
+# content: string
+# references?: Comment[]
+# loading?: boolean
+# streaming?: boolean
