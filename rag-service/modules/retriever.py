@@ -130,6 +130,20 @@ class HybridRetriever:
                             'metadata': metadata
                         })
 
+            # 安全获取 categories 字段（可能不存在或为字符串形式的 JSON）
+            categories = None
+            if 'categories' in comment_row.index:
+                categories = comment_row['categories']
+                # 兼容 str / list / nan
+                if isinstance(categories, str):
+                    try:
+                        import json
+                        categories = json.loads(categories.replace("'", '"'))
+                    except Exception:
+                        categories = []
+                elif not isinstance(categories, list):
+                    categories = []
+
             final_comment_results.append({
                 'comment_id': doc_id,
                 'comment': comment_row['comment'],
@@ -143,7 +157,8 @@ class HybridRetriever:
                     'review_count': comment_row['review_count'],
                     'useful_count': comment_row['useful_count'],
                     'room_type': comment_row['room_type'],
-                    'fuzzy_room_type': comment_row['fuzzy_room_type']
+                    'fuzzy_room_type': comment_row['fuzzy_room_type'],
+                    'categories': categories or []
                 }
             })
 
