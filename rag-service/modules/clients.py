@@ -1,5 +1,6 @@
 """LLM 与 Embedding 客户端封装"""
 
+import requests
 from dashscope import Generation, TextEmbedding
 
 # DashScope 新加坡端点
@@ -29,6 +30,40 @@ class LLMClient:
             return response.output.choices[0].message.content.strip()
         else:
             raise RuntimeError(f"LLM 调用失败: {response.message}")
+
+
+class OpenAICompatibleLLMClient:
+    """OpenAI-compatible 本地推理客户端，用于 vLLM served models."""
+
+    def __init__(self, base_url: str, model: str, api_key: str = "EMPTY",
+                 json: bool = False, timeout: int = 120):
+        self.base_url = base_url.rstrip("/")
+        self.model = model
+        self.api_key = api_key
+        self.json = json
+        self.timeout = timeout
+
+    def generate(self, prompt: str, temperature: float = 0.7) -> str:
+        """调用 /v1/chat/completions 生成文本。"""
+        payload = {
+            "model": self.model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": temperature,
+        }
+        if self.json:
+            payload["response_format"] = {"type": "json_object"}
+
+        response = requests.post(
+            f"{self.base_url}/chat/completions",
+            headers={"Authorization": f"Bearer {self.api_key}"},
+            json=payload,
+            timeout=self.timeout,
+        )
+        if response.status_code != 200:
+            raise RuntimeError(f"本地 vLLM 调用失败: {response.text}")
+
+        data = response.json()
+        return data["choices"][0]["message"]["content"].strip()
 
 
 class EmbeddingClient:

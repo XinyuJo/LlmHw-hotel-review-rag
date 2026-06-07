@@ -57,3 +57,21 @@ __pycache__/
 dist/
 .pytest_cache/
 *.egg
+
+# model checkpoints and training logs
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoint-*/
+RAG/data/evaluation/logs/
+RAG/data/evaluation/**/checkpoint-*/
+RAG/data/evaluation/hyde_sft_lora_*/
+!RAG/data/evaluation/hyde_sft_lora_*/
+RAG/data/evaluation/hyde_sft_lora_*/*
+!RAG/data/evaluation/hyde_sft_lora_*/metrics.json
+!RAG/data/evaluation/hyde_sft_lora_*/inference_samples.json
+RAG/data/evaluation/hyde_sft_lora_smoke/
+RAG/data/evaluation/hyde_sft_lora_*/runs/
+RAG/data/evaluation/hyde_sft_lora_*/trainer_state.json
+RAG/data/evaluation/hyde_sft_lora_*/training_args.bin

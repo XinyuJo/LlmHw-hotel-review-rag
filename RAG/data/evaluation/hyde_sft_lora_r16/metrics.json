@@ -1,0 +1,19 @@
+{
+  "train_runtime": 779.861,
+  "train_samples_per_second": 4.103,
+  "train_steps_per_second": 0.513,
+  "total_flos": 5500297103554560.0,
+  "train_loss": 2.7242186018824577,
+  "epoch": 0.6430868167202572,
+  "final_eval_loss": 2.485424041748047,
+  "final_eval_runtime": 14.4499,
+  "final_eval_samples_per_second": 38.201,
+  "final_eval_steps_per_second": 9.55,
+  "final_epoch": 0.6430868167202572,
+  "run_name": "hyde_sft_r16",
+  "lora_r": 16,
+  "lora_alpha": 16,
+  "max_steps": 400,
+  "train_examples": 4976,
+  "eval_examples": 552
+}

@@ -10,7 +10,7 @@ import dashvector
 import chromadb
 
 from config import TODAY, EXACT_ROOM_TYPES, FUZZY_ROOM_TYPES
-from modules.clients import LLMClient, EmbeddingClient
+from modules.clients import LLMClient, OpenAICompatibleLLMClient, EmbeddingClient
 from modules.index import InvertedIndex
 from modules.intent import IntentRecognizer, IntentDetector, IntentExpander, HyDEGenerator
 from modules.retriever import HybridRetriever
@@ -27,7 +27,11 @@ class HotelReviewRAG:
                  intl_api_key: str = None,
                  detection_model: str = "qwen-plus",
                  expansion_hyde_model: str = "qwen-flash",
-                 generation_model: str = "qwen-plus"):
+                 generation_model: str = "qwen-plus",
+                 hyde_backend: str = "dashscope",
+                 hyde_vllm_base_url: str = "http://127.0.0.1:8000/v1",
+                 hyde_vllm_model: str = "Qwen3-4B-Instruct",
+                 hyde_vllm_api_key: str = "EMPTY"):
         """
         初始化 RAG 系统
 
@@ -41,6 +45,10 @@ class HotelReviewRAG:
             detection_model: 意图检测模型
             expansion_hyde_model: 意图扩展/HyDE 模型
             generation_model: 回复生成模型
+            hyde_backend: HyDE 后端，dashscope 或 vllm
+            hyde_vllm_base_url: 本地 vLLM OpenAI-compatible API 地址
+            hyde_vllm_model: vLLM 服务暴露的模型名
+            hyde_vllm_api_key: vLLM API Key，默认 EMPTY
         """
         # 连接向量数据库
         dashvector_client = dashvector.Client(
@@ -68,15 +76,24 @@ class HotelReviewRAG:
 
         # 初始化各组件
         detection_client = LLMClient(key, model=detection_model, json=True)
-        expansion_hyde_client = LLMClient(key, model=expansion_hyde_model, json=True)
+        expansion_client = LLMClient(key, model=expansion_hyde_model, json=True)
+        if hyde_backend == "dashscope":
+            hyde_client = LLMClient(key, model=expansion_hyde_model, json=True)
+        elif hyde_backend == "vllm":
+            hyde_client = OpenAICompatibleLLMClient(
+                hyde_vllm_base_url, model=hyde_vllm_model,
+                api_key=hyde_vllm_api_key, json=True
+            )
+        else:
+            raise ValueError(f"不支持的 HyDE 后端: {hyde_backend}")
         embedding_client = EmbeddingClient(key)
 
         self.intent_recognizer = IntentRecognizer(key)
         self.intent_detector = IntentDetector(
             detection_client, EXACT_ROOM_TYPES, FUZZY_ROOM_TYPES
         )
-        self.intent_expander = IntentExpander(expansion_hyde_client)
-        self.hyde_generator = HyDEGenerator(expansion_hyde_client)
+        self.intent_expander = IntentExpander(expansion_client)
+        self.hyde_generator = HyDEGenerator(hyde_client)
         self.retriever = HybridRetriever(
             self.inverted_index, self.comments_collection,
             self.reverse_queries_collection, self.summaries_collection,

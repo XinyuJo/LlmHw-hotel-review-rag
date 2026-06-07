@@ -1,0 +1,6 @@
+datasets
+peft
+trl
+unsloth
+vllm
+wandb

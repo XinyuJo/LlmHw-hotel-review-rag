@@ -1,0 +1,58 @@
+{
+  "intent_understanding": {
+    "qwen3_sft_hyde_r8": 3.2,
+    "qwen3_sft_hyde_r16": 3.2444,
+    "qwen3_base_hyde": 3.2889,
+    "qwen3_sft_hyde_r32": 3.4,
+    "no_hyde": 3.8556,
+    "full": 4.0111
+  },
+  "content_coverage": {
+    "qwen3_sft_hyde_r8": 3.2,
+    "qwen3_sft_hyde_r16": 3.2556,
+    "qwen3_base_hyde": 3.2889,
+    "qwen3_sft_hyde_r32": 3.3667,
+    "no_hyde": 3.8667,
+    "full": 4.0222
+  },
+  "opinion_balance": {
+    "qwen3_sft_hyde_r8": 3.2889,
+    "qwen3_sft_hyde_r16": 3.3222,
+    "qwen3_base_hyde": 3.3778,
+    "qwen3_sft_hyde_r32": 3.4889,
+    "no_hyde": 3.6556,
+    "full": 3.8667
+  },
+  "traceability": {
+    "qwen3_sft_hyde_r8": 3.2111,
+    "qwen3_sft_hyde_r16": 3.2667,
+    "qwen3_base_hyde": 3.3,
+    "qwen3_sft_hyde_r32": 3.3667,
+    "no_hyde": 3.8556,
+    "full": 4.0
+  },
+  "temporal_awareness": {
+    "qwen3_sft_hyde_r8": 3.2333,
+    "qwen3_sft_hyde_r16": 3.2889,
+    "qwen3_base_hyde": 3.3111,
+    "qwen3_sft_hyde_r32": 3.3889,
+    "no_hyde": 3.8333,
+    "full": 3.9444
+  },
+  "expression_quality": {
+    "qwen3_sft_hyde_r8": 3.2222,
+    "qwen3_sft_hyde_r16": 3.2444,
+    "qwen3_base_hyde": 3.3,
+    "qwen3_sft_hyde_r32": 3.3444,
+    "no_hyde": 3.8556,
+    "full": 4.0333
+  },
+  "overall": {
+    "qwen3_sft_hyde_r8": 3.2,
+    "qwen3_sft_hyde_r16": 3.2444,
+    "qwen3_base_hyde": 3.3,
+    "qwen3_sft_hyde_r32": 3.3667,
+    "no_hyde": 3.8556,
+    "full": 4.0333
+  }
+}

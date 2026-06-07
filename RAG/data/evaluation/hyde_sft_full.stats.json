@@ -1,0 +1,18 @@
+{
+  "total": 5528,
+  "train": 4976,
+  "valid": 552,
+  "unique_comment_id": 2126,
+  "avg_target_chars": 40.8,
+  "min_target_chars": 20,
+  "max_target_chars": 160,
+  "avg_prompt_chars": 60.07,
+  "fuzzy_room_type_counts": {
+    "大床房": 2082,
+    "套房": 1322,
+    "双床房": 2087,
+    "主题房": 37
+  },
+  "train_path": "RAG/data/evaluation/hyde_sft_full.train.jsonl",
+  "valid_path": "RAG/data/evaluation/hyde_sft_full.valid.jsonl"
+}

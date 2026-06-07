@@ -1,0 +1,7022 @@
+[
+  {
+    "question_id": 1,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "full",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 2,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "no_hyde",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 3,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "full",
+      "qwen3_base_hyde",
+      "no_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "full",
+      "C": "qwen3_base_hyde",
+      "D": "no_hyde",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 4,
+    "config_order": [
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 5,
+    "config_order": [
+      "full",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_base_hyde",
+      "D": "no_hyde",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 6,
+    "config_order": [
+      "qwen3_base_hyde",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "full",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 7,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "no_hyde",
+      "E": "qwen3_base_hyde",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 8,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "full",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "no_hyde",
+      "D": "full",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 9,
+    "config_order": [
+      "qwen3_base_hyde",
+      "full",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 10,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "full",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 11,
+    "config_order": [
+      "qwen3_base_hyde",
+      "full",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "no_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 12,
+    "config_order": [
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "no_hyde",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "qwen3_base_hyde",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "traceability": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "overall": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 13,
+    "config_order": [
+      "full",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 14,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "full",
+      "no_hyde",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "full",
+      "E": "no_hyde",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 15,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "full",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 16,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "no_hyde",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "full",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 17,
+    "config_order": [
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "full",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 18,
+    "config_order": [
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "full",
+      "E": "qwen3_base_hyde",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 19,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "full",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 20,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "no_hyde",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "full",
+      "E": "no_hyde",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 21,
+    "config_order": [
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 22,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_base_hyde",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 23,
+    "config_order": [
+      "no_hyde",
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "full",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r16": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 24,
+    "config_order": [
+      "no_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "full",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "full",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 25,
+    "config_order": [
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 26,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_base_hyde",
+      "C": "full",
+      "D": "no_hyde",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 27,
+    "config_order": [
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "no_hyde",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "qwen3_base_hyde",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "traceability": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "overall": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r16": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 28,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "full",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "no_hyde",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "qwen3_base_hyde",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 29,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "full",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "qwen3_base_hyde",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 30,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "full",
+      "qwen3_base_hyde",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "full",
+      "E": "qwen3_base_hyde",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "qwen3_base_hyde": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 31,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "no_hyde",
+      "D": "full",
+      "E": "qwen3_base_hyde",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 32,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "no_hyde",
+      "qwen3_sft_hyde_r16",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "qwen3_base_hyde",
+      "D": "no_hyde",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 33,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "full",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "qwen3_base_hyde",
+      "C": "full",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "no_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 34,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "no_hyde",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 35,
+    "config_order": [
+      "full",
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 36,
+    "config_order": [
+      "no_hyde",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 37,
+    "config_order": [
+      "no_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 38,
+    "config_order": [
+      "no_hyde",
+      "full",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_base_hyde",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 39,
+    "config_order": [
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "full",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "full",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 40,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "full",
+      "qwen3_sft_hyde_r16",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "qwen3_base_hyde",
+      "D": "full",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 41,
+    "config_order": [
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 42,
+    "config_order": [
+      "full",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_base_hyde",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 43,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "no_hyde",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "full",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 44,
+    "config_order": [
+      "qwen3_base_hyde",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "full",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "no_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 45,
+    "config_order": [
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "full",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "no_hyde",
+      "E": "full",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 46,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "full",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "no_hyde",
+      "C": "full",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "full": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 47,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "full",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_base_hyde",
+      "C": "full",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 48,
+    "config_order": [
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "full",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "full",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 49,
+    "config_order": [
+      "no_hyde",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 50,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "no_hyde",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 51,
+    "config_order": [
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 52,
+    "config_order": [
+      "qwen3_base_hyde",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "no_hyde",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 53,
+    "config_order": [
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "full",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 54,
+    "config_order": [
+      "no_hyde",
+      "qwen3_sft_hyde_r16",
+      "full",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "full",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "qwen3_base_hyde",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 55,
+    "config_order": [
+      "full",
+      "qwen3_base_hyde",
+      "no_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_base_hyde",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 56,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "full",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "no_hyde",
+      "E": "full",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 57,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "full",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "no_hyde",
+      "E": "qwen3_base_hyde",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 58,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "no_hyde",
+      "full",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_base_hyde",
+      "C": "no_hyde",
+      "D": "full",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 59,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "no_hyde",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 60,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "qwen3_base_hyde",
+      "D": "full",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 61,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "full",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "full": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 62,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "full",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r16": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 63,
+    "config_order": [
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde",
+      "full",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "qwen3_base_hyde",
+      "E": "full",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "full": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 64,
+    "config_order": [
+      "full",
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "qwen3_base_hyde",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 65,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "full",
+      "qwen3_sft_hyde_r16",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_base_hyde",
+      "D": "full",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 66,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_base_hyde",
+      "full"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "no_hyde",
+      "E": "qwen3_base_hyde",
+      "F": "full"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 67,
+    "config_order": [
+      "no_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r8",
+      "full",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "full",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 68,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "full",
+      "qwen3_base_hyde",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "full",
+      "C": "qwen3_base_hyde",
+      "D": "no_hyde",
+      "E": "qwen3_sft_hyde_r32",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 69,
+    "config_order": [
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "full",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "no_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 70,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "full",
+      "qwen3_sft_hyde_r16",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "full",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 71,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "qwen3_base_hyde",
+      "full",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "no_hyde",
+      "D": "qwen3_base_hyde",
+      "E": "full",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 72,
+    "config_order": [
+      "full",
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "no_hyde",
+      "D": "qwen3_base_hyde",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r16": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 73,
+    "config_order": [
+      "full",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "no_hyde",
+      "D": "qwen3_base_hyde",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 74,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_sft_hyde_r16",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "full",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_base_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 75,
+    "config_order": [
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "no_hyde",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 76,
+    "config_order": [
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "full",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "no_hyde",
+      "E": "full",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r32": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 77,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "no_hyde",
+      "full",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "no_hyde",
+      "E": "full",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "no_hyde": 4,
+        "full": 5,
+        "qwen3_sft_hyde_r8": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 78,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r32",
+      "qwen3_sft_hyde_r16",
+      "full",
+      "qwen3_base_hyde",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "full",
+      "E": "qwen3_base_hyde",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 79,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "full",
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "no_hyde",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "qwen3_base_hyde",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 80,
+    "config_order": [
+      "qwen3_sft_hyde_r8",
+      "qwen3_base_hyde",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r8",
+      "B": "qwen3_base_hyde",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "full",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "no_hyde": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r8": 1,
+        "qwen3_base_hyde": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 81,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "qwen3_base_hyde",
+      "D": "full",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 82,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "qwen3_base_hyde",
+      "full",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "no_hyde",
+      "D": "qwen3_base_hyde",
+      "E": "full",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "full": 3,
+        "qwen3_base_hyde": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "qwen3_base_hyde": 3,
+        "full": 4,
+        "qwen3_sft_hyde_r8": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 83,
+    "config_order": [
+      "full",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "no_hyde",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "qwen3_sft_hyde_r32": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 84,
+    "config_order": [
+      "full",
+      "qwen3_sft_hyde_r32",
+      "no_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "qwen3_base_hyde",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "traceability": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "overall": {
+        "full": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_base_hyde": 5,
+        "qwen3_sft_hyde_r8": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 85,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "full",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "qwen3_base_hyde",
+      "C": "qwen3_sft_hyde_r16",
+      "D": "qwen3_sft_hyde_r8",
+      "E": "full",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_base_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_base_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_base_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_base_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_base_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_sft_hyde_r16": 2,
+        "qwen3_sft_hyde_r8": 3,
+        "full": 4,
+        "no_hyde": 5,
+        "qwen3_base_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 86,
+    "config_order": [
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16",
+      "qwen3_base_hyde",
+      "no_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r32",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r8",
+      "D": "qwen3_sft_hyde_r16",
+      "E": "qwen3_base_hyde",
+      "F": "no_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r32": 1,
+        "qwen3_base_hyde": 2,
+        "qwen3_sft_hyde_r16": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "no_hyde": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 87,
+    "config_order": [
+      "full",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r32"
+    ],
+    "label_to_config": {
+      "A": "full",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "no_hyde",
+      "D": "qwen3_base_hyde",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "qwen3_sft_hyde_r32"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "content_coverage": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "opinion_balance": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "traceability": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "temporal_awareness": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "expression_quality": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      },
+      "overall": {
+        "full": 1,
+        "no_hyde": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_sft_hyde_r8": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 88,
+    "config_order": [
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8",
+      "no_hyde",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "qwen3_base_hyde"
+    ],
+    "label_to_config": {
+      "A": "qwen3_sft_hyde_r16",
+      "B": "qwen3_sft_hyde_r8",
+      "C": "no_hyde",
+      "D": "qwen3_sft_hyde_r32",
+      "E": "full",
+      "F": "qwen3_base_hyde"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "content_coverage": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "opinion_balance": {
+        "qwen3_sft_hyde_r16": 1,
+        "no_hyde": 2,
+        "full": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "qwen3_base_hyde": 6
+      },
+      "traceability": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "temporal_awareness": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "expression_quality": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      },
+      "overall": {
+        "qwen3_sft_hyde_r16": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_sft_hyde_r32": 3,
+        "qwen3_base_hyde": 4,
+        "full": 5,
+        "no_hyde": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 89,
+    "config_order": [
+      "no_hyde",
+      "full",
+      "qwen3_sft_hyde_r32",
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r8",
+      "qwen3_sft_hyde_r16"
+    ],
+    "label_to_config": {
+      "A": "no_hyde",
+      "B": "full",
+      "C": "qwen3_sft_hyde_r32",
+      "D": "qwen3_base_hyde",
+      "E": "qwen3_sft_hyde_r8",
+      "F": "qwen3_sft_hyde_r16"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "traceability": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      },
+      "overall": {
+        "no_hyde": 1,
+        "qwen3_sft_hyde_r8": 2,
+        "qwen3_base_hyde": 3,
+        "qwen3_sft_hyde_r16": 4,
+        "qwen3_sft_hyde_r32": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  },
+  {
+    "question_id": 90,
+    "config_order": [
+      "qwen3_base_hyde",
+      "qwen3_sft_hyde_r32",
+      "full",
+      "no_hyde",
+      "qwen3_sft_hyde_r16",
+      "qwen3_sft_hyde_r8"
+    ],
+    "label_to_config": {
+      "A": "qwen3_base_hyde",
+      "B": "qwen3_sft_hyde_r32",
+      "C": "full",
+      "D": "no_hyde",
+      "E": "qwen3_sft_hyde_r16",
+      "F": "qwen3_sft_hyde_r8"
+    },
+    "rankings": {
+      "intent_understanding": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "content_coverage": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "opinion_balance": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "traceability": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "temporal_awareness": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "expression_quality": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      },
+      "overall": {
+        "qwen3_base_hyde": 1,
+        "qwen3_sft_hyde_r32": 2,
+        "no_hyde": 3,
+        "qwen3_sft_hyde_r8": 4,
+        "qwen3_sft_hyde_r16": 5,
+        "full": 6
+      }
+    },
+    "error": null
+  }
+]

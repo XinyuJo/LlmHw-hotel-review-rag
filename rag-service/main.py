@@ -89,7 +89,11 @@ async def startup():
             dashvector_api_key=dashvector_api_key,
             dashvector_endpoint=dashvector_endpoint,
             data_dir=data_dir,
-            intl_api_key=intl_api_key or None
+            intl_api_key=intl_api_key or None,
+            hyde_backend=os.getenv("HYDE_BACKEND", "dashscope"),
+            hyde_vllm_base_url=os.getenv("HYDE_VLLM_BASE_URL", "http://127.0.0.1:8000/v1"),
+            hyde_vllm_model=os.getenv("HYDE_VLLM_MODEL", "Qwen3-4B-Instruct"),
+            hyde_vllm_api_key=os.getenv("HYDE_VLLM_API_KEY", "EMPTY")
         )
         print(f"RAG 系统初始化完成（{mode}）")
     except Exception as e:
@@ -120,13 +124,14 @@ async def chat(request: ChatRequest):
     # 非流式：只返回检索结果
     if not enable_generation:
         try:
+            query_options = {k: v for k, v in request.options.items() if k != "enable_generation"}
+            query_options.setdefault("enable_hyde", True)
             result = rag_system.query(
                 request.query.strip(),
-                enable_hyde=False,
                 enable_generation=False,
                 print_response=False,
                 history=request.history,
-                **{k: v for k, v in request.options.items() if k != "enable_generation"}
+                **query_options
             )
 
             # 转换评论格式
@@ -153,13 +158,14 @@ async def chat(request: ChatRequest):
 
     query_text = request.query.strip()
     query_options = {k: v for k, v in request.options.items() if k != "enable_generation"}
+    query_options.setdefault("enable_hyde", True)
     query_history = request.history
 
     def _run_query_stream():
         """在线程池中运行同步 RAG 流水线，通过 queue 推送事件"""
         try:
             for event in rag_system.query_stream(
-                query_text, enable_hyde=False, history=query_history, **query_options
+                query_text, history=query_history, **query_options
             ):
                 event_type = event.get("type")
 
