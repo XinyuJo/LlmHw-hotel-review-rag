@@ -97,10 +97,35 @@ class HotelReviewRAG:
         self.retriever = HybridRetriever(
             self.inverted_index, self.comments_collection,
             self.reverse_queries_collection, self.summaries_collection,
-            embedding_client, self.df_comments, self.hyde_generator
+            self.embedding_client, self.df_comments, self.hyde_generator
         )
         self.reranker = Reranker(key)
         self.generator = ResponseGenerator(key, model=generation_model)
+
+    def _build_ranker(self, w_relevance, w_quality, w_length, w_review, w_useful,
+                      w_recency, base_decay, implied_boost, clear_boost, half_life_days,
+                      relevance_floor, use_p95_normalization,
+                      enable_mmr, mmr_lambda,
+                      enable_category_diversity, max_per_category,
+                      mmr_overselect_ratio):
+        """构建 MultiFactorRanker，集中处理参数透传"""
+        return MultiFactorRanker(
+            self.reranker,
+            embedding_client=self.embedding_client if enable_mmr else None,
+            w_relevance=w_relevance, w_quality=w_quality,
+            w_length=w_length, w_review=w_review,
+            w_useful=w_useful, w_recency=w_recency,
+            base_decay=base_decay, implied_boost=implied_boost,
+            clear_boost=clear_boost, half_life_days=half_life_days,
+            # 新增参数（默认值保持向后兼容）
+            dataset_latest_date=TODAY,
+            relevance_floor=relevance_floor,
+            use_p95_normalization=use_p95_normalization,
+            enable_mmr=enable_mmr, mmr_lambda=mmr_lambda,
+            enable_category_diversity=enable_category_diversity,
+            max_per_category=max_per_category,
+            mmr_overselect_ratio=mmr_overselect_ratio,
+        )
 
     def query(self, user_query: str,
               route_topk: int = 150,
@@ -125,6 +150,14 @@ class HotelReviewRAG:
               implied_boost: float = 0.5,
               clear_boost: float = 0.5,
               half_life_days: int = 180,
+              # —— 新增：多样性与相关性截断配置（默认全部关闭，行为向后兼容） ——
+              relevance_floor: float = 0.0,
+              use_p95_normalization: bool = False,
+              enable_mmr: bool = False,
+              mmr_lambda: float = 0.7,
+              enable_category_diversity: bool = False,
+              max_per_category: int = 2,
+              mmr_overselect_ratio: float = 1.5,
               today: datetime | None = TODAY,
               history: dict | None = None) -> dict:
         """
@@ -233,13 +266,13 @@ class HotelReviewRAG:
 
         # 三、排序
         if enable_ranking:
-            ranker = MultiFactorRanker(
-                self.reranker,
-                w_relevance=w_relevance, w_quality=w_quality,
-                w_length=w_length, w_review=w_review,
-                w_useful=w_useful, w_recency=w_recency,
-                base_decay=base_decay, implied_boost=implied_boost,
-                clear_boost=clear_boost, half_life_days=half_life_days
+            ranker = self._build_ranker(
+                w_relevance, w_quality, w_length, w_review, w_useful, w_recency,
+                base_decay, implied_boost, clear_boost, half_life_days,
+                relevance_floor, use_p95_normalization,
+                enable_mmr, mmr_lambda,
+                enable_category_diversity, max_per_category,
+                mmr_overselect_ratio
             )
             ranked_comments, ranking_timing = ranker.rank(
                 user_query, comments,
@@ -249,7 +282,7 @@ class HotelReviewRAG:
             timing['ranking'] = ranking_timing
         else:
             ranked_comments = comments
-            timing['ranking'] = {'total': 0, 'rerank': 0, 'scoring': 0}
+            timing['ranking'] = {'total': 0, 'rerank': 0, 'scoring': 0, 'mmr': 0}
 
         # 四、回复生成
         if enable_generation:
@@ -332,6 +365,14 @@ class HotelReviewRAG:
                      implied_boost: float = 0.5,
                      clear_boost: float = 0.5,
                      half_life_days: int = 180,
+                     # —— 新增：多样性与相关性截断配置（默认全部关闭） ——
+                     relevance_floor: float = 0.0,
+                     use_p95_normalization: bool = False,
+                     enable_mmr: bool = False,
+                     mmr_lambda: float = 0.7,
+                     enable_category_diversity: bool = False,
+                     max_per_category: int = 2,
+                     mmr_overselect_ratio: float = 1.5,
                      today: datetime | None = TODAY,
                      history: dict | None = None):
         """
@@ -421,13 +462,13 @@ class HotelReviewRAG:
 
         # 三、排序
         if enable_ranking:
-            ranker = MultiFactorRanker(
-                self.reranker,
-                w_relevance=w_relevance, w_quality=w_quality,
-                w_length=w_length, w_review=w_review,
-                w_useful=w_useful, w_recency=w_recency,
-                base_decay=base_decay, implied_boost=implied_boost,
-                clear_boost=clear_boost, half_life_days=half_life_days
+            ranker = self._build_ranker(
+                w_relevance, w_quality, w_length, w_review, w_useful, w_recency,
+                base_decay, implied_boost, clear_boost, half_life_days,
+                relevance_floor, use_p95_normalization,
+                enable_mmr, mmr_lambda,
+                enable_category_diversity, max_per_category,
+                mmr_overselect_ratio
             )
             ranked_comments, ranking_timing = ranker.rank(
                 user_query, comments,
@@ -437,7 +478,7 @@ class HotelReviewRAG:
             timing['ranking'] = ranking_timing
         else:
             ranked_comments = comments
-            timing['ranking'] = {'total': 0, 'rerank': 0, 'scoring': 0}
+            timing['ranking'] = {'total': 0, 'rerank': 0, 'scoring': 0, 'mmr': 0}
 
         # 发送参考评论（在生成之前）
         processed_comments = []
